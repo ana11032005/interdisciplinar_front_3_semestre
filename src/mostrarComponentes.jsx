@@ -9,7 +9,7 @@ import {
   DataBox,
   Modal,
   Card,
-} from "./components/Components.jsx";
+} from "./components/components.jsx";
 
 function MostrarComponentes() {
   const [selectedValue, setSelectedValue] = useState("");
