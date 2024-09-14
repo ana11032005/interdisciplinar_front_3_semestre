@@ -1,0 +1,197 @@
+.Button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 120%;
+    background-color: #00a32a;
+    width: 200px;
+    height:60px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .Button:hover {
+    background-color: #008923; 
+  }
+  
+  .Button:focus {
+    outline: none;
+  }
+
+  .Button-Denied {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 120%;
+    background-color: #a30000;
+    width: 200px;
+    height:60px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .Button-Denied:hover {
+    background-color: #890000; 
+  }
+  
+  .Button-Denied:focus {
+    outline: none;
+  }
+    
+
+
+  .Button-Form {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 120%;
+    background-color: #00a32a;
+    width: 200px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .Button-Form:hover {
+    background-color: #008923; 
+  }
+  
+  .Button-Form:focus {
+    outline: none;
+  }
+
+
+  .Input-Filter{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #121212;
+    font-size: 120%;
+    width: 350px;
+    height: 27px;
+    padding: 12px 30px;
+    text-align: left;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+
+  .Input-Form{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #121212;
+    font-size: 120%;
+    width: 300px;
+    height: 15px;
+    padding: 12px 30px;
+    text-align: left;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  
+  .Input-DropBox {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #121212;
+    font-size: 110%;
+    width: 365px;
+    height: 55px;
+    padding: 12px 30px;
+    text-align: left;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  
+  .Input-DropBox:focus {
+    border-color: #00a32a; 
+  }
+  
+  .Data-Box {
+    width: 90%;
+    background-color: transparent;
+    border: 3px solid #000;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: left;
+    justify-content: center;    
+  }
+  
+  .Data-Field {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #121212;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: 400;
+    margin-right: 10px;
+    text-align: left;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Escurece o fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+
+  }
+  
+  .modal-body {
+    margin-bottom: 40px;
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content:space-between;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  
+  .card-data {
+    background-color: rgba(5, 145, 0, 0.25);
+    text-align: center;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #121212;
+    font-size: 18px;
+  }
+  
+  .card-legend {
+    background-color: #00a32a; 
+    padding: 15px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  

@@ -1,0 +1,44 @@
+.header {
+    height: 10vh;
+    background-color: #00a32a;
+    display: flex;
+    align-items: center;
+    padding: 0 1%;
+    color: white;
+    position: relative;
+    font-size: 150%;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .header-content h2 {
+    font-weight: 300;
+    margin: 0;
+    align-self: center;
+  }
+  
+  .customDrawer .MuiDrawer-paper {
+    width: 20vw;
+    background-color: #f9f9f9;
+    top: 10vh;
+    font-size:150%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  }
+  
+  .customDrawer .MuiListItem-root {
+    text-align: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  
+  .customDrawer .MuiListItem-root:hover {
+    background-color: rgba(5, 145, 0, 0.25);
+  }
+  
